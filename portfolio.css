@@ -664,6 +664,9 @@ footer a {
         border-right:0;
         border-bottom:1px solid #021024;
     }
+    .description h4{
+        margin-left:30px;
+    }
     .skills{
         width:100%;
     }
@@ -699,10 +702,12 @@ footer a {
         gap:10px;
         text-align:left;
     }
+ 
     .contact h5{
         margin-top:0;
         font-weight:bold;
     }
+   
     .projects_showcase p{
         text-align: center;
     }
@@ -713,6 +718,7 @@ footer a {
 @media screen and (max-width:420px){
     .description h4{
         font-size:18px;
+        margin-left:60px;
     }
     .desc_holder h1{
         font-size:24px;
@@ -735,4 +741,15 @@ footer a {
     .offcanvas{
         width:200px !important;
     }
+    .bt{
+        font-size:12px;
+    }
+    .contact p{
+        font-size:16px;
+    }
+    .contact{
+        grid-template-columns:1fr;
+        grid-template-rows: auto;
+    }
+
 }
