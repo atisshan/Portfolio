@@ -197,10 +197,10 @@ span{
 }
 .description_img{
     position:absolute;
-    top:-15%;
+    top:-10%;
     left:5%;
     width:12.5%;
-    height:40%;
+    height:30%;
    
 }
 .description_img img{
@@ -521,7 +521,12 @@ opacity:1;
     margin-top:40px;
     margin-bottom:40px;
 }
-
+/* .carousel-item{
+    height:500px;
+}
+.carousel-item img{
+    height:50%;
+} */
 
 .column{
    
